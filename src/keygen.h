@@ -12,18 +12,17 @@
  * @param word a decimal word we want the binary representation of.
  * @param range the number of effective bits printed.
  */
-
 void print_bits(u_int16_t word, int range);
 
 /** This permutation function represents different functions used within the SDES one.
  * Depending on which permutation you want to apply to your key passed as an argument, it will
- * also take an unsigned integer to determine which permutation will be applied (8 for P8, 10 for P10, etc...)
+ * also take an integer to determine which permutation will be applied (8 for P8, 10 for P10, etc...)
  * @return a key which permutation depends on the second parameter passed.
  * @param key the original key.
  * @param perm the integer representing the permutation we want to apply to our key.
  */
-
 u_int16_t permutation(u_int16_t key, int perm);
+
 
 /** This function will perform a circular left shift of an amount of bits passed as
  * an argument, separately on the first five bits
@@ -32,8 +31,6 @@ u_int16_t permutation(u_int16_t key, int perm);
  * @param key the key which bits will be rotated.
  * @param pos the amount of bit shifts realized on the key
  */
-
-
 u_int16_t circular_left_shift(u_int16_t key, unsigned int pos);
 
 
