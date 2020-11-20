@@ -3,7 +3,8 @@
 
 #include <stddef.h>
 
-/** This library contains all the functions used to implement the fk function.
+/** This library contains all the functions used to implement the fk function
+ * used within our SDES functions.
  */
 
 
