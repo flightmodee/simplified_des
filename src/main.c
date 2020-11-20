@@ -6,12 +6,16 @@
 #include "sdes.h"
 
 
+/* The main is here to perform simple tests to make sure everything works fine.
+ * As you can see, it generates an integer between 0 and 255, as we were asked
+ * to work with 8-bit plaintexts. You can change it to whichever value you can, 
+ * provided it fills the requirements cited above.*/
+
 int main(){
 
 	srand(time(NULL));
 
 	u_int8_t plaintext, ciphertext;
-
 
 	//10-bit key
 	u_int16_t key = 642;
