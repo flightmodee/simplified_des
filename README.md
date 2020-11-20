@@ -31,7 +31,7 @@ I'm getting to it, curious reader, do not worry. In order to not fall into redun
 
 
 The S_DES encryption function can be described as follows: it requires an 8-bit plaintext along with a 10-bit key as parameters, and produces an 8-bit ciphertext. But how does it produce it, one may ask? This function is a composition of five functions: 
-> Ciphextext = IP⁻1(fk1(SW(fk2(IP(plaintext)))))
+> Ciphextext = IP⁻¹($fk_1$)
 
 
 
